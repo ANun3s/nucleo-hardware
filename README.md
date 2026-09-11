@@ -1,23 +1,49 @@
-﻿# Núcleo
+# Núcleo: projeto para VS Code
 
-Front-end educacional sobre 15 peças e periféricos: processador, placa-mãe, RAM, GPU, SSD, HD, fonte, cooler, ventoinhas, gabinete, placa de rede, monitor, teclado, mouse e headset.
+Site com 15 peças e periféricos, 60 balões explicativos, animações e layout responsivo.
 
-Cada seção contém uma imagem, quatro balões expansíveis e conectores que acompanham o layout. Navegação direta por peça, animações pausadas fora da tela, navegação por teclado e suporte a movimento reduzido.
+## Abrir e executar
 
-## Executar
+1. Extraia todo o ZIP.
+2. Abra nucleo-hardware.code-workspace no VS Code, ou use Arquivo > Abrir Pasta.
+3. Você precisa do Node.js 22.13 ou superior instalado.
+4. Abra Terminal > Novo Terminal e execute um comando de cada vez:
 
-npm install
-npm run dev
-npm run build
+```powershell
+npm.cmd ci
+npm.cmd run dev
+```
 
-## Imagens de produto
+Abra o endereço Local exibido no terminal, normalmente http://localhost:3000.
+Salve os arquivos para atualizar a prévia. Use Ctrl+C para encerrar o servidor.
+No macOS ou Linux, use npm no lugar de npm.cmd.
 
+## Arquivos para editar
+
+- app/page.tsx: estrutura, navegação, balões, animações e dados das duas primeiras peças.
+- app/hardware.ts: conteúdo das outras 13 peças.
+- app/globals.css: cores, tamanhos, espaçamento e layout para celular.
+- app/layout.tsx: título, descrição, idioma e fontes.
+- public/images/: todas as imagens do site.
+
+## Gerar a versão final
+
+```powershell
+npm.cmd run build
+```
+
+Os arquivos estáticos ficam em dist/client.
+O projeto usa React, TypeScript, Vinext e Vite. Para visualizar, execute o servidor; os arquivos TSX não abrem diretamente no navegador.
+
+## Conteúdo do pacote
+
+Código-fonte, componentes, imagens, configurações e package-lock.json.
+As dependências são instaladas com npm ci. O ZIP não inclui node_modules, caches, histórico Git ou arquivos temporários.
+A configuração .openai/hosting.json mantém as opções locais, sem vínculo com a publicação original.
+
+## Imagens
+
+As imagens pertencem aos respectivos titulares. Os textos explicam conceitos gerais, não as especificações exatas dos modelos ilustrados.
 Processador: https://tkcomputerkh.com/brand/amd/ryzen-9-7950x
-Imagem: https://assets-cdn.jambuntech.dev/tk/1_f59044ff0c.png
-
 Placa-mãe: https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI
-Imagem: https://storage-asset.msi.com/global/picture/image/feature/mb/B650/MAG-B650-TOMAHAWK-WIFI/mag-b650-tomahawk-wifi.png
-
-As fontes das 13 imagens adicionadas estão em public/images/sources.json. Os arquivos foram otimizados em WebP para carregamento local; as imagens abaixo da primeira seção usam carregamento sob demanda.
-
-Imagens pertencem aos respectivos titulares. Explicações apresentam conceitos gerais, sem constituir uma ficha técnica dos modelos ilustrados.
+Fontes das demais imagens: public/images/sources.json.
