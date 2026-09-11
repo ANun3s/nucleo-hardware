@@ -1,0 +1,120 @@
+[
+  {
+    "file": "ram.jpg",
+    "part": "RAM",
+    "source": "https://www.kingston.com/de/memory/gaming/kingston-fury-beast-ddr4-memory",
+    "image": "https://media.kingston.com/kingston/product/FURY_Beast_Black_DDR4_2-zm-lg.jpg",
+    "background": "white",
+    "size": "2048x2048",
+    "notes": "Official Kingston photo, front view; substantial vertical whitespace.",
+    "local": "public/images/ram.webp"
+  },
+  {
+    "file": "gpu.png",
+    "part": "Graphics card",
+    "source": "https://my-store.msi.com/products/msi-geforce-rtx-4060-ventus-2x-black-8g-oc",
+    "image": "https://my-store.msi.com/cdn/shop/files/4060-ventus-2x-5.png?v=1689315747&width=1214",
+    "background": "transparent",
+    "size": "1000x1000",
+    "notes": "Official MSI store photo; front view, fans and PCIe contacts visible.",
+    "local": "public/images/gpu.webp"
+  },
+  {
+    "file": "ssd.png",
+    "part": "NVMe SSD",
+    "source": "https://tinhocngoisao.com/products/o-cung-ssd-samsung-990-pro-nvme-m-2-2tb-mz-v9p2t0bw",
+    "image": "https://product.hstatic.net/200000420363/product/samsung-990-pro-nvme-m.2-2tb-_mz-v9p2t0bw_-7_b4eb649f3dae4b3e9419e51f02d934dd_grande.png",
+    "background": "transparent",
+    "size": "600x600",
+    "notes": "Samsung 990 PRO front view; mounting notch and gold contacts visible.",
+    "local": "public/images/ssd.webp"
+  },
+  {
+    "file": "hdd.jpg",
+    "part": "Internal hard drive",
+    "source": "https://www.tejar.pk/seagate-barracuda-3-5-inch-internal-hard-drive-1tb-64-32mb-7200rpm",
+    "image": "https://www.tejar.pk/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/s/e/seagate_barracuda_3.5-inch_internal_hard_drive5_-_tejar_1_1.jpg",
+    "background": "white",
+    "size": "1500x1500",
+    "notes": "Seagate BarraCuda top view; metal body and label clearly visible, SATA connector not shown.",
+    "local": "public/images/hdd.webp"
+  },
+  {
+    "file": "psu.png",
+    "part": "Power supply",
+    "source": "https://www.terabyteshop.com.br/produto/16608/fonte-corsair-rm750-750w-80-plus-gold-full-mudolar-cp-9020195-ww",
+    "image": "https://img.terabyteshop.com.br/produto/g/fonte-corsair-rm750-750w-80-plus-gold-full-mudolar-cp-9020195-ww_113605.png",
+    "background": "transparent",
+    "size": "1200x1200",
+    "notes": "Corsair RM750 three-quarter view; fan grille and modular connectors visible.",
+    "local": "public/images/psu.webp"
+  },
+  {
+    "file": "cooler.jpg",
+    "part": "CPU air cooler",
+    "source": "https://www.ldlc.com/fiche/PB00146611.html",
+    "image": "https://media.ldlc.com/r1600/ld/products/00/01/27/38/LD0001273808_2.jpg",
+    "background": "near-white",
+    "size": "1600x1600",
+    "notes": "Noctua NH-U12S isolated three-quarter view; fan and fin stack visible.",
+    "local": "public/images/cooler.webp"
+  },
+  {
+    "file": "fan.jpg",
+    "part": "Case fan",
+    "source": "https://www.waz.com.br/ventoinha-cooler-12cm-noctua-nf-a12x25-pwm-116427-html/p",
+    "image": "https://waz.vtexassets.com/arquivos/ids/198975/116427-1-Ventoinha_Cooler_12cm_Noctua_NF_A12x25_PWM_116427.jpg?v=636670070426930000",
+    "background": "white",
+    "size": "832x1000",
+    "notes": "Noctua NF-A12x25 rear three-quarter view; frame, blades, rear support and short cable visible.",
+    "local": "public/images/fan.webp"
+  },
+  {
+    "file": "case.jpg",
+    "product": "NZXT H510",
+    "source": "https://www.pccasegear.com/products/48798/nzxt-h510-mid-tower-case-matte-black-red",
+    "image": "https://files.pccasegear.com/images/CA-H510B-BR-add1.jpg",
+    "inspection": "White background, three-quarter top view, interior and top ports visible.",
+    "local": "public/images/case.webp"
+  },
+  {
+    "file": "wifi.jpg",
+    "product": "TP-Link Archer TX3000E",
+    "source": "https://www.wavonline.com/TP-Link-Archer-TX3000E",
+    "image": "https://www.wavonline.com/Website_Assets/Product_Images/TP-Link-Archer-TX3000E.02.jpg",
+    "inspection": "White background, PCIe card and external two-antenna base, no packaging.",
+    "local": "public/images/network.webp"
+  },
+  {
+    "file": "keyboard.png",
+    "product": "Logitech G413",
+    "source": "https://www.logitechg.com/en-in/products/gaming-keyboards/g413-mechanical-gaming-keyboard.html",
+    "image": "https://resource.logitechg.com/w_692%2Cc_lpad%2Car_4%3A3%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/gaming/en/non-braid/g413-firebird/g413-gallery-3-nb.png?v=1",
+    "inspection": "Transparent background, full top view, numeric keypad, official manufacturer CDN.",
+    "local": "public/images/keyboard.webp"
+  },
+  {
+    "file": "mouse.webp",
+    "product": "Logitech G203",
+    "source": "https://gs-com.bz/products/logitech-g203-lightsync-rgb-6-button-gaming-mouse",
+    "image": "https://gs-com.bz/cdn/shop/files/g203-black-gallery-2_0044c327-dd1e-4266-bf96-8db90be3e1c0.webp?v=1748299419",
+    "inspection": "Transparent background, large top view of black wired mouse.",
+    "local": "public/images/mouse.webp"
+  },
+  {
+    "file": "headset.png",
+    "product": "HyperX white/pink headset",
+    "source": "https://www.hp.com/co-es/shop/accesorios/accesorios-gaming.html",
+    "image": "https://co-media.hptiendaenlinea.com/catalog/product/9/W/9W1Q4AA-1_T1764689652.png",
+    "inspection": "Transparent background, earcups, headband and microphone visible, official HP store.",
+    "local": "public/images/headset.webp"
+  },
+  {
+    "file": "monitor.jpg",
+    "product": "Dell SE2422H",
+    "source": "https://www.clove.co.uk/products/dell-s-series-24-monitor-se2422h-60-5cm-23-9",
+    "image": "https://www.clove.co.uk/cdn/shop/products/a28690bb2a574a987b4ff33a5cfa6947_2048x.jpg?v=1710768099",
+    "inspection": "White background, complete front view including stand, landscape on screen.",
+    "local": "public/images/monitor.webp"
+  }
+]
